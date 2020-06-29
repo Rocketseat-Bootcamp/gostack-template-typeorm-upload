@@ -26,10 +26,6 @@ export class CreateTransaction1593360557679 implements MigrationInterface {
           type: "numeric"
         },
         {
-          name: "category_id",
-          type: "varchar"
-        },
-        {
           name: "created_at",
           type: "timestamp",
           default: "now()"
